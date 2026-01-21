@@ -7,8 +7,9 @@
   <section class="box b">B</section>  
   <section class="box c">C</section>  
 </main>
-
-
+```
+## CSS
+```css
 .container {
   display: flex;                 /* Enables Flexbox for the direct children */
   flex-direction: row-reverse;   /* Sets the main axis direction to a reversed row */
@@ -30,3 +31,4 @@
 .b {
   order: 1;                      /* Changes visual order (does not change the DOM order) */
 }
+```
